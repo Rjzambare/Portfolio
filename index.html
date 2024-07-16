@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="D:\College\LEARNING\React\Portfolio\Images\20221024_213156.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section Design -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello. It's Me</h3>
+            <h1>Rushikesh Zambare</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>Aspiring IT professional with experience in software development, Web Development. Proficient in C++, Python, Java,
+                SQL, and frameworks like Django and React.js. Strong teamwork, problem-solving skills, and a dedicated learning
+                attitude.
+                </p>
+
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/rushikesh-zambare-b007741b6/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Rjzambare" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/_r_u_s_h_i_123_/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="Full_Stack_Resume.pdf" class="btn" download="cv.pdf">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src=".\Images\Rushi.png" alt="">
+        </div>
+    </section>
+
+    <!-- About section design -->
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Images/DJ-logos/DJ-logos_white.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Developer</h3>
+            <a href="Full_Stack_Resume.pdf" class="btn">Read More</a>
+        </div>
+    </section>
+
+    
+
+    <!-- Portfolio Section Design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Water Quality Prediction </h4>
+                    <p>Implemented a Water Quality Prediction System using Machine Learning and Python with an outstanding accuracy of 93%.</p>
+                    <a href="https://github.com/Rjzambare/Machine-Learning-Project"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio2.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Search Engine using Splay Tree</h4>
+                    <p>Implemented a search engine function using file handling. Splay trees enable us to use efficient searching. Implementation of
+                        the history function, which enables the user to know the time of a particular string searched.</p>
+                    <a href="https://github.com/Rjzambare/Data-Structure-Project"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio3.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Python IBM</h4>
+                    <p>Learn to integrate Python applications with IBM Cloud, focusing on securely pushing and pulling data to IBM Cloud Object Storage (COS) using APIs.</p>
+                    <a href="https://github.com/Rjzambare/Data-Injection-Project"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Simon Says Game</h4>
+                    <p>Develop a Game using Html, CSS and JavaScript.</p>
+                    <a href="https://github.com/Rjzambare/Learning"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio2.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Result Management System</h4>
+                    <p>The Result Management System project developed in Javascript and Python. </p>
+                    <a href="https://github.com/Rjzambare/Learner"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/Images/Portfolio3.jpg" alt="">
+                 <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iusto.</p>
+                    <a href="https://github.com/Rjzambare/Fyle_assignment"><i class='bx bx-link-external' ></i></a>
+                 </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Services Section Design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt' ></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum incidunt obcaecati consequuntur odio? Id culpa maiores veritatis harum doloribus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bxl-android' ></i>
+                <h3>Android Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum incidunt obcaecati consequuntur odio? Id culpa maiores veritatis harum doloribus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-palette' ></i>
+                <h3>Web Designer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur ipsum incidunt obcaecati consequuntur odio? Id culpa maiores veritatis harum doloribus.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section Design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="text" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" placeholder="Your Message" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Design  -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Rushikesh Zambare | All Rigths Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
